@@ -23,7 +23,7 @@ Next.addEventListener('click', function(e){
 
      M_plan.classList.remove('hidden');
      nextStep.classList.remove('hidden');
-    e.preventDefault;
+    e.preventDefault();
 });
 
 Toggle.addEventListener('click', function(e){
@@ -35,7 +35,7 @@ Toggle.addEventListener('click', function(e){
         Y_plan.classList.remove('hidden');
     }
 
-    e.preventDefault
+    e.preventDefault()
 });
 
 nextStep.addEventListener('click', Nexts)
@@ -44,7 +44,7 @@ function Nexts(e){
     e.target.parentElement.parentElement.nextElementSibling.children[0].classList.remove('hidden');
     e.target.parentElement.parentElement.nextElementSibling.children[2].classList.remove('hidden');
 
-    e.preventdefault
+    e.preventdefault()
 }
 
 La.addEventListener('click', Nextes)
@@ -53,7 +53,7 @@ function Nextes(e){
     e.target.parentElement.parentElement.nextElementSibling.children[0].classList.remove('hidden');
     e.target.parentElement.parentElement.nextElementSibling.children[2].classList.remove('hidden');
 
-    e.preventdefault
+    e.preventdefault()
 }
 
 
