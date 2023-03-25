@@ -17,26 +17,31 @@
         </ul>
 
         <!-- Step 1 -->
-        <div class=" bg-White h-80 w-4/5 mx-auto rounded-md" id="p-info">
-            <p class="p-4 font-bold text-xl text-Marine-blue">Personal Info</p>
-            <p class="px-4 -mt-3 w-56 font-thin text-xs opacity-50">Please provide your name, email address, and phone number.</p>
-            <div class="px-4">
-                <label for="name" class="text-sm text-Marine-blue">Name</label>
-                <br>
-                <input type="text" name="name" placeholder="e.g. Stephen King" class="border-2 pl-2 py-1 font-medium w-full rounded-md border-Cool-gray">
+        <div>
+            <div class=" bg-White h-80 w-4/5 mx-auto rounded-md" id="p-info">
+                <p class="p-4 font-bold text-xl text-Marine-blue">Personal Info</p>
+                <p class="px-4 -mt-3 w-56 font-thin text-xs opacity-50">Please provide your name, email address, and phone number.</p>
+                <div class="px-4">
+                    <label for="name" class="text-sm text-Marine-blue">Name</label>
+                    <br>
+                    <input type="text" name="name" placeholder="e.g. Stephen King" class="border-2 pl-2 py-1 font-medium w-full rounded-md border-Cool-gray">
+                </div>
+                <div class="px-4 py-2">
+                    <label for="email" class="text-sm text-Marine-blue">Email Address</label>
+                    <br>
+                    <input type="text" name="email" placeholder="e.g. stephenking@lorem.com" class="border-2 pl-2 py-1 font-medium w-full rounded-md border-Cool-gray">
+                </div>
+                <div class="px-4">
+                    <label for="phone" class="text-sm text-Marine-blue">Phone Number</label>
+                    <br>
+                    <input type="text" name="phone" placeholder="e.g. +1 234 567 890" class="border-2 pl-2 py-1 font-medium w-full rounded-md border-Cool-gray">
+                </div>
             </div>
-            <div class="px-4 py-2">
-                <label for="email" class="text-sm text-Marine-blue">Email Address</label>
-                <br>
-                <input type="text" name="email" placeholder="e.g. stephenking@lorem.com" class="border-2 pl-2 py-1 font-medium w-full rounded-md border-Cool-gray">
-            </div>
-            <div class="px-4">
-                <label for="phone" class="text-sm text-Marine-blue">Phone Number</label>
-                <br>
-                <input type="text" name="phone" placeholder="e.g. +1 234 567 890" class="border-2 pl-2 py-1 font-medium w-full rounded-md border-Cool-gray">
+
+            <div class="bg-White relative h-16  top-44">
+                <a href="#" class="next bg-Marine-blue text-White w-fit py-1 px-4 rounded-md absolute bottom-2 right-9">Next Step</a>
             </div>
         </div>
-
 
         <!-- step2 -->
         <div>
@@ -121,9 +126,9 @@
                 
             </div>
 
-            <div class="next-step hidden bg-White relative top-44 h-16 ">
-                <a href="#" class="bg-Marine-blue text-White w-fit py-1 px-4 rounded-md absolute bottom-2 right-9">Next Step</a>
-                <a href="#" class="text-Cool-gray w-fit py-1 px-4 rounded-md absolute bottom-2 left-9">Go back</a>
+            <div class="hidden bg-White relative top-44 h-16 ">
+                <a href="#" class="next-step bg-Marine-blue text-White w-fit py-1 px-4 rounded-md absolute bottom-2 right-9">Next Step</a>
+                <a href="#" class="back text-Cool-gray w-fit py-1 px-4 rounded-md absolute bottom-2 left-9">Go back</a>
             </div>
         </div>
 
@@ -191,9 +196,9 @@
                 </div>
             </div>
 
-            <div class="next-st hidden bg-White relative bottom-0 h-16 top-44">
-                <a href="#" class="bg-Marine-blue text-White w-fit py-1 px-4 rounded-md absolute bottom-2 right-9">Next Step</a>
-                <a href="#" class="text-Cool-gray w-fit py-1 px-4 rounded-md absolute bottom-2 left-9">Go back</a>
+            <div class="hidden bg-White relative bottom-0 h-16 top-44">
+                <a href="#" class="next-st bg-Marine-blue text-White w-fit py-1 px-4 rounded-md absolute bottom-2 right-9">Next Step</a>
+                <a href="#" class="backwards text-Cool-gray w-fit py-1 px-4 rounded-md absolute bottom-2 left-9">Go back</a>
             </div>
         </div>
 
@@ -258,8 +263,8 @@
                 </div>
             </div>
 
-            <div class="hidden confirm bg-White relative bottom-0 h-16 top-44">
-                <a href="#" class="bg-Purplish-blue text-White w-fit py-1 px-4 rounded-md absolute bottom-2 right-9">Confirm</a>
+            <div class="hidden bg-White relative bottom-0 h-16 top-44">
+                <a href="#" class="confirm bg-Purplish-blue text-White w-fit py-1 px-4 rounded-md absolute bottom-2 right-9">Confirm</a>
                 <a href="#" class="text-Cool-gray w-fit py-1 px-4 rounded-md absolute bottom-2 left-9">Go back</a>
             </div>
         </div>
@@ -274,9 +279,9 @@
     </div>
 
 
-    <div class="next bg-White relative h-16  top-96">
-        <a href="#" class="bg-Marine-blue text-White w-fit py-1 px-4 rounded-md absolute bottom-2 right-9">Next Step</a>
-    </div>
+    <!-- <div class="bg-White relative h-16  top-96">
+        <a href="#" class="next bg-Marine-blue text-White w-fit py-1 px-4 rounded-md absolute bottom-2 right-9">Next Step</a>
+    </div> -->
     <!-- <div class="next-step hidden bg-White relative bottom-0 h-16  mt-96">
         <a href="#" class="bg-Marine-blue text-White w-fit py-1 px-4 rounded-md absolute bottom-2 right-9">Next Step</a>
         <a href="#" class="text-Cool-gray w-fit py-1 px-4 rounded-md absolute bottom-2 left-9">Go back</a>
